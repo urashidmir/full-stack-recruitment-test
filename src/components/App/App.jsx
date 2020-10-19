@@ -1,9 +1,7 @@
 import React from 'react';
-import BpkText from 'bpk-component-text';
-
 import Header from '../Header';
-
 import STYLES from './App.scss';
+import ListComponent from './flights/ListComponent';
 
 const getClassName = className => STYLES[className] || 'UNKNOWN';
 
@@ -11,8 +9,8 @@ const App = () => (
   <div className={getClassName('App')}>
     <Header />
     <main className={getClassName('App__main')}>
-      <BpkText tagName="p">Over to you...</BpkText>
-      {/* TODO: Add a component to display results here */}
+      {/* ListComponent to display the list of itineraries */}
+      <ListComponent />
     </main>
   </div>
 );

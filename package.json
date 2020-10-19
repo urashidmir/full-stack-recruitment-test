@@ -20,6 +20,10 @@
   },
   "devDependencies": {
     "@skyscanner/backpack-react-scripts": "^8.0.2",
+    "bpk-component-button": "^3.2.63",
+    "bpk-component-icon": "^8.2.23",
+    "bpk-component-image": "^4.0.42",
+    "bpk-component-link": "^2.1.13",
     "bpk-component-text": "^3.1.18",
     "bpk-mixins": "^20.1.0",
     "bpk-stylesheets": "^6.0.50",
@@ -35,5 +39,8 @@
     "not dead",
     "not ie <= 10",
     "not op_mini all"
-  ]
+  ],
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  }
 }

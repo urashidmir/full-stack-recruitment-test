@@ -5,3 +5,21 @@
     padding: $bpk-spacing-sm;
   }
 }
+
+
+.table {
+  width: 100%;
+  border-spacing:0 1em;
+}
+
+.ItemList{
+  background: grey;
+}
+
+.ItemComponent{
+  padding-top: .5em;
+  padding-bottom: .5em;
+  background: white;
+  border-spacing: 0 2em;
+  border: 1em solid #EDEBE5;
+}
